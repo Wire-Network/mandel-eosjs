@@ -4,11 +4,11 @@ const fetch = require('node-fetch');
 const { TextEncoder, TextDecoder } = require('util');
 
 const privateKey = '5JuH9fCXmU3xbj8nRmhPZaVrxxXrdPaRmZLW1cznNTmTQR2Kg5Z'; // replace with "bob" account private key
-/* new accounts for testing can be created by unlocking a cleos wallet then calling: 
- * 1) cleos create key --to-console (copy this privateKey & publicKey)
- * 2) cleos wallet import 
- * 3) cleos create account bob publicKey
- * 4) cleos create account alice publicKey
+/* new accounts for testing can be created by unlocking a clio wallet then calling: 
+ * 1) clio create key --to-console (copy this privateKey & publicKey)
+ * 2) clio wallet import 
+ * 3) clio create account bob publicKey
+ * 4) clio create account alice publicKey
  */
 
 const rpc = new JsonRpc('http://localhost:8888', { fetch });
