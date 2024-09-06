@@ -128,7 +128,7 @@ With the introduction of Leap v3.1 the retry transaction feature also adds 5 new
 (async () => {
   const result = await api.transact({
     actions: [{
-      account: 'eosio.token',
+      account: 'sysio.token',
       name: 'transfer',
       authorization: [{
         actor: 'useraaaaaaaa',
