@@ -1,6 +1,8 @@
 enf-eosjs ![npm](https://img.shields.io/npm/dw/enf-eosjs.svg)
 
-## <span style="color:#ffe200">⚠ enf-eosjs is deprecated</span> please use [WharfKit](https://github.com/wharfkit/) as the latest EOS SDK. For a basic SDK similar to eosjs check out [WharfKit Antelope](https://github.com/wharfkit/antelope)
+Javascript API for integration with EOSIO-based blockchains using [EOSIO RPC API](https://developers.eos.io/eosio-nodeop/reference).
+
+Documentation can be found [here](https://eosio.github.io/eosjs)
 
 ## Installation
 
